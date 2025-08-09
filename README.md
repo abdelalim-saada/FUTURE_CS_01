@@ -3,19 +3,23 @@
 ## 🔍 Task Overview
 This task is focused on performing web application security testing to identify:
 - SQL Injection (SQLi)
+- Cross-site fogery (CSS)
 - Cross-Site Scripting (XSS)
-- Broken Authentication
+- SSH Brute force
 
 ## 🛠 Tools Used
 - Burp Suite
 - OWASP ZAP
 - SQLMap
+- Nmap
+- Medusa
+- DVWA
 - Firefox Developer Tools
 
 ## 📄 Deliverables
 - `report.pdf`: Detailed vulnerability report
 - `/screenshots`: Screenshots of test results
-- `/scripts`: Any payloads or testing scripts
+- `/scripts`: testing scripts
 
 ## ✅ Skills Practiced
 - Web App Penetration Testing
