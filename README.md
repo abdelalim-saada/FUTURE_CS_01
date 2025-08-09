@@ -3,7 +3,7 @@
 ## 🔍 Task Overview
 This task is focused on performing web application security testing to identify:
 - SQL Injection (SQLi)
-- Cross-site fogery (CSS)
+- Cross-site forgery (CSS)
 - Cross-Site Scripting (XSS)
 - SSH Brute force
 
