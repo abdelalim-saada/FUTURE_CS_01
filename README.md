@@ -9,6 +9,7 @@ This task is focused on performing web application security testing to identify:
 
 ## 🛠 Tools Used
 - Burp Suite
+- PortSwigger labs
 - OWASP ZAP
 - SQLMap
 - Nmap
