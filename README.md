@@ -1,15 +1,17 @@
-# FUTURE_CS_01 – Web Application Security Testing
+# Web Application Security Testing — SQLi, XSS, CSRF & SSH Brute Force
 
-## 🔍 Task Overview
-This task is focused on performing web application security testing to identify:
+## 🔍 Overview
+A hands-on security testing project focused on identifying and documenting common web application vulnerabilities:
 - SQL Injection (SQLi)
-- Cross-site forgery (CSS)
-- Cross-Site Scripting (XSS)
-- SSH Brute force
+- Cross-Site Request Forgery (CSRF)
+- Cross-Site Scripting (XSS) — Reflected, Stored, DOM-based
+- SSH Brute Force (credential attacks)
+
+Testing was performed against intentionally vulnerable applications (DVWA, PortSwigger Academy labs, Metasploitable2) in a controlled Kali Linux lab environment, with each finding documented following a professional penetration testing report structure (impact, proof-of-concept, remediation, OWASP Top 10 mapping).
 
 ## 🛠 Tools Used
 - Burp Suite
-- PortSwigger labs
+- PortSwigger Academy Labs
 - OWASP ZAP
 - SQLMap
 - Nmap
@@ -20,15 +22,13 @@ This task is focused on performing web application security testing to identify:
 ## 📄 Deliverables
 - `report.pdf`: Detailed vulnerability report
 - `/screenshots`: Screenshots of test results
-- `/scripts`: testing scripts
+- `/scripts`: Testing scripts
 
 ## ✅ Skills Practiced
-- Web App Penetration Testing
-- OWASP Top 10
-- Vulnerability Reporting
+- Web Application Penetration Testing
+- OWASP Top 10 vulnerability identification
+- Vulnerability reporting and remediation guidance
 
-## 📌 Internship Info
-- Internship: Future Interns
-- Track Code: CS
-- Task Number: 01
-- Duration: 27 July – 27 August 2025
+## Author
+**Abdelalim Saada** — Cybersecurity Engineer
+[LinkedIn](https://www.linkedin.com/in/abdelalim-saada-5732a3350/) · [GitHub](https://github.com/abdelalim-saada)
